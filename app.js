@@ -84,7 +84,7 @@ $(function() {
     });
   }
 
-  //TODO make it shows the last page when fetch a new page
+  //TODO make it shows the last page when fetch a previous page
   //It seems that legacy Github API does not support pagenation by using query string in url
   //So here pagenation manully
   changePage = function(offset) {
